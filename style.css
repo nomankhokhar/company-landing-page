@@ -18,3 +18,36 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--primary-text-color);
 }
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto" sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+
+.small-bold-text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.top-banner {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    background-color: #183b56;
+}
