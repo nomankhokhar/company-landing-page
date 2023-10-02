@@ -80,7 +80,7 @@ ul {
   padding: 12px 24px;
   box-shadow: 0 0 2px var(--secondary-text-color);
   transition: 0.2s ease-out;
-}
+} 
 
 .primary-button:hover {
   background-color: var(--accent-color-dark);
@@ -155,4 +155,50 @@ header {
 
 .header-right img {
   width: 600px;
+}
+
+
+.companies-header {
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+}
+
+.logos {
+  justify-content: space-between;
+}
+
+.logo {
+  height: 46px;
+}
+
+.features-section {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(./assets/asset\ 32.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.features-header  {
+  text-align: center;
+}
+
+
+.features-heading-text {
+  margin-bottom: 20px;
+}
+
+.features-area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.features-card {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
 }
