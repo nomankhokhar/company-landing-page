@@ -23,7 +23,7 @@
                 Noman Ali
             </h3>
 
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links" >
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Product</a></li>
                     <li><a href="#" class="hover-link">Customer</a></li>
@@ -259,6 +259,16 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/9dcbeb03a4.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle')
+        const navlinks = document.getElementById('nav-links')
+
+        toggleButton.addEventListener('click', () => {
+            navlinks.classList.toggle('active')
+        })
+    </script>
+
 </body>
 
 </html>
